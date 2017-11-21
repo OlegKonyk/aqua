@@ -42,7 +42,7 @@ const config = {
                 $filter: 'env',
                 production: process.env.MONGODB_URI,
                 test: 'mongodb://localhost:27017/aqua-test',
-                $default: 'mongodb://learningmean:012186mean@ds231245.mlab.com:31245/umspro'
+                $default: 'mongodb://umspro:012186mean@ds231245.mlab.com:31245/umspro'
             }
         },
         autoIndex: true
